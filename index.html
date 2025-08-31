@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASCETUR - Transformando Vidas</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="icon" type="image/png" href="img/logoicon.png">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-glass  ">
+        <div class="container">
+            <a class="navbar-brand" href="#" data-aos="fade-right">
+                <img src="logo2.png" alt="ASCETUR Logo" height="100" class="logo-img">
+            </a>
+            
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon-custom">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre Nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#atuacao">Atuação</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#impacto">Impacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#news">Notícias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="hero-badge">
+                        <i class="bi bi-stars"></i>
+                        <span>Transformando Vidas</span>
+                    </div>
+                    
+                    <h1 class="hero-title">
+                        <span class="gradient-text">Cultura,</span> 
+                        <span class="gradient-text">Esporte e</span><br>
+                       <span class="gradient-text">Turismo</span>
+                    </h1>
+                    
+                    <p class="hero-subtitle">
+                        Transformando Vidas Através da Cultura, Esporte e Turismo, 
+                        Impulsionados pelo Empreendedorismo e Tecnologia.
+                    </p>
+                    
+                    <div class="hero-buttons">
+                        <a href="#atuacao" class="btn btn-primary-custom btn-lg">
+                            <span>Conheça Nossa Atuação</span>
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                        <a href="#contato" class="btn btn-outline-custom btn-lg">
+                            <span>Apoie-nos</span>
+                            <i class="bi bi-heart"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="400">
+                    <div class="hero-cards">
+                        <div class="floating-card card-cultura" data-aos="zoom-in" data-aos-delay="600">
+                            <div class="card-icon">
+                                <i class="bi bi-palette-fill"></i>
+                            </div>
+                            <h3>Cultura</h3>
+                            <p>Arte e Educação</p>
+                        </div>
+                        
+                        <div class="floating-card card-esporte" data-aos="zoom-in" data-aos-delay="800">
+                            <div class="card-icon">
+                                <i class="bi bi-trophy-fill"></i>
+                            </div>
+                            <h3>Esporte</h3>
+                            <p>Bem-Estar</p>
+                        </div>
+                        
+                        <div class="floating-card card-turismo" data-aos="zoom-in" data-aos-delay="1000">
+                            <div class="card-icon">
+                                <i class="bi bi-tree-fill"></i>
+                            </div>
+                            <h3>Turismo</h3>
+                            <p>Sustentável</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Sobre Nós Section -->
+    <section id="sobre" class="section-padding">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <div class="section-badge">
+                    <i class="bi bi-people-fill"></i>
+                    <span>Sobre Nós</span>
+                </div>
+                <h2 class="section-title">Nossa História</h2>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+                    <div class="glass-card h-100">
+                        <div class="card-header-custom">
+                            <div class="icon-wrapper icon-primary">
+                                <i class="bi bi-bullseye"></i>
+                            </div>
+                            <h3>Nossa Missão</h3>
+                        </div>
+                        
+                        <p class="card-text-lead">
+                            Desde 2008, a ASCETUR atua como uma força transformadora, 
+                            promovendo o desenvolvimento social através da cultura, esporte e turismo, 
+                            sempre com base no empreendedorismo e tecnologia.
+                        </p>
+                        
+                        <div class="feature-list">
+                            <div class="feature-item">
+                                <i class="bi bi-check-circle-fill"></i>
+                                <span>Legalidade e transparência</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="bi bi-check-circle-fill"></i>
+                                <span>Impessoalidade e eficiência</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="bi bi-check-circle-fill"></i>
+                                <span>Não-discriminação</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="400">
+                    <div class="glass-card h-100">
+                        <div class="card-header-custom">
+                            <div class="icon-wrapper icon-success">
+                                <i class="bi bi-heart-fill"></i>
+                            </div>
+                            <h3>Nosso Público</h3>
+                        </div>
+                        
+                        <p class="card-text-lead">
+                            Atuamos com atenção especial a grupos que mais necessitam de apoio, 
+                            criando oportunidades e fortalecendo laços sociais.
+                        </p>
+                        
+                        <div class="feature-list">
+                            <div class="feature-item">
+                                <i class="bi bi-heart-fill"></i>
+                                <span>Crianças e jovens em vulnerabilidade</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="bi bi-heart-fill"></i>
+                                <span>População LGBTQIAPN+</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="bi bi-heart-fill"></i>
+                                <span>Fortalecimento de mulheres</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                    <div class="glass-card text-center">
+                        <div class="card-header-custom justify-content-center">
+                            <div class="icon-wrapper icon-warning">
+                                <i class="bi bi-geo-alt-fill"></i>
+                            </div>
+                            <h3>Nosso Alcance</h3>
+                        </div>
+                        
+                        <p class="card-text-lead">
+                            Nossa atuação compreende todo o Distrito Federal, a RIDE, o território nacional - 
+                            especialmente em áreas dentro dos biomas da Amazônia e do Cerrado.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Atuação Section -->
+    <section id="atuacao" class="section-padding bg-gradient">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <div class="section-badge">
+                    <i class="bi bi-lightning-fill"></i>
+                    <span>Nossa Atuação</span>
+                </div>
+                <h2 class="section-title ">Como Geramos Impacto</h2>
+                <p class="section-subtitle ">
+                    Transformamos vidas e comunidades por meio de iniciativas focadas em Cultura, 
+                    Esporte e Turismo, com a inovadora base do Empreendedorismo e Tecnologia.
+                </p>
+            </div>
+
+            <!-- Serviços -->
+            <div class="row g-4 mb-5">
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-people-fill"></i>
+                        </div>
+                        <h3>Programas e Projetos</h3>
+                        <p>
+                            Desenvolvemos e executamos iniciativas de longo prazo, com objetivos claros 
+                            de desenvolvimento social, cultural, esportivo e turístico.
+                        </p>
+                        <a href="projetos.html" class="btn btn-service">
+                            Ver Projetos <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-lightbulb-fill"></i>
+                        </div>
+                        <h3>Consultoria</h3>
+                        <p>
+                            Oferecemos assessoria estratégica e consultoria especializada para organizações, 
+                            governos e empresas que desejam desenvolver projetos sociais.
+                        </p>
+                        <a href="consultoria.html" class="btn btn-service">
+                            Saiba Mais <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-search"></i>
+                        </div>
+                        <h3>Pesquisa e Extensão</h3>
+                        <p>
+                            Conduzimos estudos e pesquisas para identificar necessidades, avaliar a eficácia 
+                            de nossas ações e desenvolver metodologias inovadoras.
+                        </p>
+                        <a href="publicacoes.html" class="btn btn-service">
+                            Publicações <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Áreas de Atuação -->
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+                <h3 class="section-subtitle-large ">Nossos Projetos por Área</h3>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+                    <div class="area-card area-cultura">
+                        <div class="area-icon">
+                            <i class="bi bi-palette-fill"></i>
+                        </div>
+                        <div class="area-content">
+                            <h3>Cultura, Arte e Educação</h3>
+                            <p>
+                                Exploramos a cultura como motor de transformação e inclusão. 
+                                Conheça nossos projetos que resgatam tradições, valorizam talentos 
+                                e promovem a educação artística.
+                            </p>
+                            <a href="projetos.html" class="btn btn-area">
+                                Explorar Projetos Culturais
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="400">
+                    <div class="area-card area-esporte">
+                        <div class="area-icon">
+                            <i class="bi bi-trophy-fill"></i>
+                        </div>
+                        <div class="area-content">
+                            <h3>Esporte e Bem-Estar</h3>
+                            <p>
+                                Acreditamos no poder do esporte para promover saúde, disciplina 
+                                e trabalho em equipe. Veja como nossos projetos incentivam a prática 
+                                esportiva e a formação de cidadãos.
+                            </p>
+                            <a href="projetos.html" class="btn btn-area">
+                                Ver Projetos Esportivos
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="600">
+                    <div class="area-card area-turismo">
+                        <div class="area-icon">
+                            <i class="bi bi-tree-fill"></i>
+                        </div>
+                        <div class="area-content">
+                            <h3>Turismo Sustentável</h3>
+                            <p>
+                                Promovemos um turismo consciente e responsável que valoriza as 
+                                comunidades e preserva o meio ambiente. Conheça nossas rotas e 
+                                iniciativas que unem lazer e sustentabilidade.
+                            </p>
+                            <a href="projetos.html" class="btn btn-area">
+                                Descobrir Roteiros
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="800">
+                    <div class="area-card area-empreendedorismo">
+                        <div class="area-icon">
+                            <i class="bi bi-lightning-fill"></i>
+                        </div>
+                        <div class="area-content">
+                            <h3>Empreendedorismo e Inovação</h3>
+                            <p>
+                                Explicamos como o empreendedorismo impulsiona as iniciativas da ASCETUR. 
+                                Detalhamos workshops, mentorias e apoio a empreendedores nos setores 
+                                cultural, esportivo e turístico.
+                            </p>
+                            <a href="projetos.html" class="btn btn-area">
+                                Programas de Capacitação
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-12" data-aos="fade-up" data-aos-delay="1000">
+                    <div class="cta-card">
+                        <h3>Construa um Futuro Conosco</h3>
+                        <p>
+                            Seja nosso parceiro em consultoria, apoie um de nossos projetos ou saiba 
+                            como a pesquisa pode ajudar a sua organização. Entre em contato e vamos 
+                            juntos gerar mais impacto social.
+                        </p>
+                        <a href="#contato" class="btn btn-cta">
+                            Fale Conosco <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impacto Section -->
+    <section id="impacto" class="section-padding">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <div class="section-badge">
+                    <i class="bi bi-award-fill"></i>
+                    <span>Nosso Impacto</span>
+                </div>
+                <h2 class="section-title">Reconhecimento e Resultados</h2>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="impact-card">
+                        <div class="impact-icon">
+                            <i class="bi bi-award-fill"></i>
+                        </div>
+                        <h3>Selo Social</h3>
+                        <p>Reconhecimento oficial do impacto social</p>
+                        <div class="impact-number">2008</div>
+                        <span class="impact-label">Ano de Fundação</span>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="impact-card">
+                        <div class="impact-icon">
+                            <i class="bi bi-people-fill"></i>
+                        </div>
+                        <h3>Vidas Transformadas</h3>
+                        <p>Pessoas impactadas pelos nossos projetos</p>
+                        <div class="impact-number">1000+</div>
+                        <span class="impact-label">Beneficiários</span>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="impact-card">
+                        <div class="impact-icon">
+                            <i class="bi bi-geo-alt-fill"></i>
+                        </div>
+                        <h3>Alcance Nacional</h3>
+                        <p>Atuação em todo território brasileiro</p>
+                        <div class="impact-number">3</div>
+                        <span class="impact-label">Biomas Atendidos</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="section-padding bg-dark text-white">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <div class="section-badge">
+                    <i class="bi bi-envelope-fill"></i>
+                    <span>Contato</span>
+                </div>
+                <h2 class="section-title text-white">Fale Conosco</h2>
+                <p class="section-subtitle text-white-50">
+                    Entre em contato e vamos juntos transformar vidas através da cultura, esporte e turismo.
+                </p>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+                    <div class="contact-card">
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="bi bi-envelope-fill"></i>
+                                    </div>
+                                    <h4>Email</h4>
+                                    <p>contato@ascetur.com.br</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="bi bi-geo-alt-fill"></i>
+                                    </div>
+                                    <h4>Localização</h4>
+                                    <p>Distrito Federal, Brasil</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="text-center mt-4">
+                            <a href="mailto:contato@ascetur.com.br" class="btn btn-primary-custom btn-lg">
+                                <span>Entrar em Contato</span>
+                                <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="footer-brand">
+                        <img src="img/logo ascetur-13.png" alt="ASCETUR Logo" height="100">
+                        <div class="footer-text">
+                            <h5>Associação Cultural, Esportiva & Turística</h5>
+                            <p>Transformando vidas através da cultura, esporte e turismo</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6 text-lg-end" data-aos="fade-left">
+                    <div class="footer-links">
+                        <a href="#home">Início</a>
+                        <a href="#sobre">Sobre</a>
+                        <a href="#atuacao">Atuação</a>
+                        <a href="#contato">Contato</a>
+                    </div>
+                    <p class="copyright">© 2024 ASCETUR. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão Flutuante -->
+<button type="button" class="btn btn-danger btn-lg rounded-circle shadow" id="doacaoBtn">
+  ❤️
+</button>
+
+<!-- Modal Bootstrap -->
+<div class="modal fade" id="doacaoModal" tabindex="-1" aria-labelledby="doacaoLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="doacaoLabel">APOIE NOSSA CAUSA</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+      <div class="modal-body">
+                    <p>Sua contribuição é fundamental para continuarmos transformando vidas através da cultura, esporte e turismo.</p>
+                    <p>Você pode fazer sua doação via:</p>
+                    <ul>
+                        <li>**PIX:** Chave PIX (CNPJ ou Email)</li>
+                        <li>**Transferência Bancária:** Dados da Conta (Banco, Agência, Conta)</li>
+                        <li>**Cartão de Crédito:** Link para plataforma de doação segura</li>
+                    </ul>
+                    <p>Entre em contato para mais detalhes sobre como doar:</p>
+                    <p><i class="bi bi-envelope-fill me-2"></i>contato@ascetur.com.br</p>
+                    <p><i class="bi bi-telephone-fill me-2"></i>(61) 99853-8516</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <a href="#contato" class="btn btn-primary">Entrar em Contato para Doar</a>
+                </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // Initialize AOS only
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true,
+            offset: 100
+        });
+        
+        // Simple navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar-glass');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        document.getElementById("doacaoBtn").addEventListener("click", function() {
+    var modal = new bootstrap.Modal(document.getElementById("doacaoModal"));
+    modal.show();
+  });
+    </script>
+
+
+</body>
+</html>
+
